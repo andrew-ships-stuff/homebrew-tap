@@ -5,26 +5,26 @@
 class Caphe < Formula
   desc "CPU-native compiled security workflow engine"
   homepage "https://github.com/andrew-ships-stuff/caphe"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.3/caphe_v0.1.3_darwin_arm64.tar.gz"
-      sha256 "6dba5dc161dea394223f9028efd45f72839a9c62e4c083c68a0ff48d0b7ea177"
+      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.4/caphe_v0.1.4_darwin_arm64.tar.gz"
+      sha256 "cf07086df50ebc9556c02db7e8d2189da7c7c24ada73acf6da3e7ce773476a03"
     else
-      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.3/caphe_v0.1.3_darwin_amd64.tar.gz"
-      sha256 "41fb06869d3f1da1773399f19065a85a0e8fe88e6d1c2309fcaee65fc3543c87"
+      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.4/caphe_v0.1.4_darwin_amd64.tar.gz"
+      sha256 "fe6a2e960d126f93ce409bffac2449fc4a2794836fef2c2a6dc4fc038333bdaf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.3/caphe_v0.1.3_linux_arm64.tar.gz"
-      sha256 "d242990b62dad725e3212067a73697a30259420c627e2de263b6b529c6b2d020"
+      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.4/caphe_v0.1.4_linux_arm64.tar.gz"
+      sha256 "ed626cdef5a4e0424cf1cf6b370a82e19666b86b0ca166fa3f35b3380ac02eb9"
     else
-      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.3/caphe_v0.1.3_linux_amd64.tar.gz"
-      sha256 "343cba24f48eb9712c161f87d4e87773f93b4a1de9c6a18a2524ab7bd22a6ce7"
+      url "https://github.com/andrew-ships-stuff/caphe/releases/download/v0.1.4/caphe_v0.1.4_linux_amd64.tar.gz"
+      sha256 "bc5dacaee9bd3ddb0251419e90102ae2da794fecb0d2c7a91b82cb538b78a443"
     end
   end
 
